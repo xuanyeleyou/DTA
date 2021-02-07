@@ -1,0 +1,103 @@
+cmake_minimum_required(VERSION 3.17)
+project(BTree)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+include_directories(_share)
+include_directories(UniPrint)
+include_directories(vector)
+
+add_executable(BTree
+        _share/checkOrder_Elem.h
+        _share/checkOrder_list.h
+        _share/checkOrder_vector.h
+        _share/comparator.h
+        _share/crc_Elem.h
+        _share/crc_list.h
+        _share/crc_vector.h
+        _share/decrease_Elem.h
+        _share/decrease_list.h
+        _share/decrease_vector.h
+        _share/double_Elem.h
+        _share/double_vector.h
+        _share/Hailstone_Elem.h
+        _share/half_Elem.h
+        _share/half_list.h
+        _share/increase_Elem.h
+        _share/increase_list.h
+        _share/increase_vector.h
+        _share/rand.h
+        _share/release.h
+        _share/util.h
+        UniPrint/print.h
+        UniPrint/print_basic.cpp
+        UniPrint/print_binNode.h
+        UniPrint/print_bintree.h
+        UniPrint/print_btree.h
+        UniPrint/print_Entry.h
+        UniPrint/print_GraphMatrix.h
+        UniPrint/print_HashTable.h
+        UniPrint/print_HuffChar.cpp
+        UniPrint/print_implementation.h
+        UniPrint/print_int_array.cpp
+        UniPrint/print_int_array.h
+        UniPrint/print_PQ_ComplHeap.h
+        UniPrint/print_PQ_LeftHeap.h
+        UniPrint/print_PQ_List.h
+        UniPrint/print_QuadList.h
+        UniPrint/print_SkipList.h
+        UniPrint/print_traversable.h
+        vector/main.cpp
+        vector/permute.h
+        vector/vector.h
+        vector/vector_assignment.h
+        vector/vector_bracket.h
+        vector/vector_bubblesort_A.h
+        vector/vector_bubblesort_B.h
+        vector/vector_bubblesort_C.h
+        vector/vector_constructor_by_copying.h
+        vector/Vector_deduplicate.h
+        vector/vector_deduplicate_1.h
+        vector/vector_deduplicate_wrong_1.h
+        vector/vector_expand.h
+        vector/vector_find.h
+        vector/vector_heapSort.h
+        vector/vector_implementation.h
+        vector/Vector_insert.h
+        vector/Vector_merge.h
+        vector/vector_mergeSort.h
+        vector/vector_partition_DUP.h
+        vector/vector_partition_DUP1.h
+        vector/vector_partition_LGU.h
+        vector/vector_partition_LUG.h
+        vector/vector_partition_LUG1.h
+        vector/vector_quickSort_iterative.h
+        vector/vector_quickSort_recursive.h
+        vector/vector_remove.h
+        vector/vector_removeInterval.h
+        vector/Vector_search.h
+        vector/Vector_search_binary_A.h
+        vector/Vector_search_binary_B.h
+        vector/Vector_search_binary_C.h
+        vector/Vector_search_fibonaccian_A.h
+        vector/Vector_search_fibonaccian_B.h
+        vector/vector_selectionsort.h
+        vector/vector_shellSort.h
+        vector/vector_shrink.h
+        vector/vector_sort.h
+        vector/vector_test.h
+        vector/vector_traverse.h
+        vector/Vector_uniquify.h
+        vector/Vector_uniquify_slow.h
+        vector/vector_unsort.h
+        BTNode.h
+        BTree.h
+        BTree_implementation.h
+        BTree_insert.h
+        BTree_remove.h
+        BTree_search.h
+        BTree_solveOverflow.h
+        BTree_solveUnderflow.h
+        BTree_Test.h
+        main.cpp)
