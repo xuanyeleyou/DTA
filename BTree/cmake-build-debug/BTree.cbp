@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BTree"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Git/DTA/BTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Git/DTA/BTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BTree">
+				<Option output="D:/Git/DTA/BTree/cmake-build-debug/BTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Git/DTA/BTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Git/DTA/BTree/."/>
+					<Add directory="D:/Git/DTA/BTree/_share"/>
+					<Add directory="D:/Git/DTA/BTree/UniPrint"/>
+					<Add directory="D:/Git/DTA/BTree/vector"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 BTree"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BTree/fast">
+				<Option output="D:/Git/DTA/BTree/cmake-build-debug/BTree.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Git/DTA/BTree/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Git/DTA/BTree/."/>
+					<Add directory="D:/Git/DTA/BTree/_share"/>
+					<Add directory="D:/Git/DTA/BTree/UniPrint"/>
+					<Add directory="D:/Git/DTA/BTree/vector"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 BTree/fast"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Git/DTA/BTree/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/mingw64/bin/mingw32-make.exe -f &quot;D:/Git/DTA/BTree/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Git/DTA/BTree/BTNode.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/BTree.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/BTree_Test.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/BTree_implementation.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/BTree_insert.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/BTree_remove.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/BTree_search.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/BTree_solveOverflow.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/BTree_solveUnderflow.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_Entry.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_GraphMatrix.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_HashTable.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_HuffChar.cpp">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_PQ_ComplHeap.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_PQ_LeftHeap.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_PQ_List.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_QuadList.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_SkipList.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_basic.cpp">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_binNode.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_bintree.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_btree.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_implementation.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_int_array.cpp">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_int_array.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/UniPrint/print_traversable.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/Hailstone_Elem.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/checkOrder_Elem.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/checkOrder_list.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/checkOrder_vector.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/comparator.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/crc_Elem.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/crc_list.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/crc_vector.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/decrease_Elem.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/decrease_list.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/decrease_vector.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/double_Elem.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/double_vector.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/half_Elem.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/half_list.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/increase_Elem.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/increase_list.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/increase_vector.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/rand.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/release.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/_share/util.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/main.cpp">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_deduplicate.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_insert.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_merge.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_search.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_search_binary_A.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_search_binary_B.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_search_binary_C.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_search_fibonaccian_A.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_search_fibonaccian_B.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_uniquify.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/Vector_uniquify_slow.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/main.cpp">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/permute.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_assignment.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_bracket.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_bubblesort_A.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_bubblesort_B.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_bubblesort_C.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_constructor_by_copying.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_deduplicate_1.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_deduplicate_wrong_1.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_expand.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_find.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_heapSort.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_implementation.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_mergeSort.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_partition_DUP.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_partition_DUP1.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_partition_LGU.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_partition_LUG.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_partition_LUG1.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_quickSort_iterative.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_quickSort_recursive.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_remove.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_removeInterval.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_selectionsort.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_shellSort.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_shrink.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_sort.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_test.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_traverse.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/vector/vector_unsort.h">
+			<Option target="BTree"/>
+		</Unit>
+		<Unit filename="D:/Git/DTA/BTree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
