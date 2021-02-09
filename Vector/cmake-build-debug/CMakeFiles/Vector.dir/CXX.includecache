@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Git/DTA/Vector/library.cpp
+library.h
+D:/Git/DTA/Vector/library.h
+iostream
+-
+
+D:/Git/DTA/Vector/library.h
+

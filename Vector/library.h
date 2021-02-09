@@ -1,0 +1,6 @@
+#ifndef VECTOR_LIBRARY_H
+#define VECTOR_LIBRARY_H
+
+
+
+#endif //VECTOR_LIBRARY_H
