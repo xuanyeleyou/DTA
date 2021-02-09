@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/KMP.dir/main.cpp.obj"
-  "KMP.exe"
-  "KMP.exe.manifest"
+  "CMakeFiles/KMP.dir/main.cpp.o"
+  "KMP"
   "KMP.pdb"
-  "libKMP.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

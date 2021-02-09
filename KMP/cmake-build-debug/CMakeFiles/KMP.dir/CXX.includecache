@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/Git/DTA/KMP/KMP.h
+/home/mark/Documents/GitRepository/DTA/KMP/KMP.h
 string.h
 -
 
-D:/Git/DTA/KMP/main.cpp
+/home/mark/Documents/GitRepository/DTA/KMP/main.cpp
 iostream
 -
 KMP.h
-D:/Git/DTA/KMP/KMP.h
+/home/mark/Documents/GitRepository/DTA/KMP/KMP.h
 
